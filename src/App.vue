@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="to do icon" src="./assets/task-done-flat.svg">
+  <TodoApp msg=""/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TodoApp from './components/TodoApp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TodoApp
   }
 }
 </script>
@@ -22,5 +22,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img {
+  width:40px;
 }
 </style>
